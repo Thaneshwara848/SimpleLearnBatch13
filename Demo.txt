@@ -1,0 +1,192 @@
+
+
+
+
+Phase 1
+		Why java . where , when ? 
+		Oops 
+		Exception handling 
+		MultiThreading 
+		Arrays 
+		Collections
+		GIT 
+		Junit 
+		 
+Phase 2 
+		backend : 
+				JDBC 
+				SERVLET 
+				JSP 
+				MYSQL 
+				Hibernate 
+				etc....!
+				MAven
+
+Phase 3
+		Spring 
+			Core 
+			Hibenrate
+			AOP 
+			JDBC 
+			MVC 
+				SpringbBoot 
+					Spring Web 
+					Spring Data JPA 
+					Spring Cloud 
+					Spring Security 
+					Makito 
+		
+				Devlops : 
+						Dockers
+						Jinkins 
+						Kubernatics 
+						Sonarcube 
+						
+				Server : 
+						Zuul 
+						Eureka 
+
+				kafka 
+				RabbitMQ 
+
+				Web Services : 
+						REST 
+						SOUP 
+
+
+
+	
+Phase 4 : 
+
+		
+			Anagulr 
+
+
+
+
+
+			HTML 
+			CSS
+			JavaScript 
+			TypeScript 
+			Angualr 
+
+
+
+
+
+
+
+
+
+Full stack 
+
+
+
+Front End 
+
+		HTML 
+		Css 
+		Js 
+			Angualr .JS 
+
+
+
+Middle Ware 
+			java 
+				Spring boot
+
+
+
+back end 
+
+				Mysql 
+	
+
+
+
+
+
+
+
+				Java 						java Script ? 
+
+				
+				Server Side 				Client side + Server side 
+										
+											Angualr.JS 
+											REACt.js 
+											node .js 
+											express.js 
+											vew.js
+											vinnall JS 
+											backbone JS
+
+
+
+HTML 
+CSS 
+JS 
+TS 
+ANGAULR 
+
+
+VS Code : https://code.visualstudio.com/
+Git     : https://git-scm.com/downloads
+Node JS : https://nodejs.org/en/download/
+Postman : https://www.postman.com/downloads/
+
+
+HTML 
+======================
+html 
+head 
+body 
+title 
+h1-h6 
+p 
+br 
+hr 
+table : 
+list 
+audio . vedio 
+images 
+links
+some text 
+Form  : 
+	
+
+
+CSS : 
+	typesof styles 
+	types of selectors 
+	borders 
+	background 
+	margin 
+	padding 
+	overflow 
+	color 
+	box model 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
