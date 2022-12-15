@@ -167,7 +167,17 @@ CSS :
 	overflow 
 	color 
 	box model 
-	
+Bootstracp 
+	grid : 
+	button 
+	Color 
+	text 
+	backgroud 
+	table : 
+	pagination 
+	spinner 
+	progress bar 
+
 
 
 
