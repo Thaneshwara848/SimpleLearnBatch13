@@ -167,8 +167,10 @@ CSS :
 	overflow 
 	color 
 	box model 
+	media query 
 Bootstracp 
-	grid : 
+	grid :
+		class ="col-md-6 col-sm-4 col-lg-8" 
 	button 
 	Color 
 	text 
@@ -176,8 +178,24 @@ Bootstracp
 	table : 
 	pagination 
 	spinner 
-	progress bar 
+	progress bar
+	forms 
+	collaps 
+	nav bar 
+	corosole 
+	glypicon 
+	model 
+	etc.............!
+	
 
+HTML      :
+CSS		  :
+BootStracp:
+
+		Create Simple , with good look and feel 
+				web page you have to create 
+
+					holidays: 
 
 
 
