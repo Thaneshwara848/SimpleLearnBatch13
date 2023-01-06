@@ -11,7 +11,8 @@ import { EntryComponent } from './entry/entry.component';
 import { BindingComponent } from './binding/binding.component';
 import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
 import { AttrubutedirectiveComponent } from './attrubutedirective/attrubutedirective.component';
-
+import { FormsComponent } from './forms/forms.component';
+import { FormsModule }   from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,11 +23,13 @@ import { AttrubutedirectiveComponent } from './attrubutedirective/attrubutedirec
     EntryComponent,
     BindingComponent,
     DirectivedemoComponent,
-    AttrubutedirectiveComponent
+    AttrubutedirectiveComponent,
+    FormsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
