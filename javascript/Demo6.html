@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validate(){
+                fname=document.getElementById('fname').value;
+                lname=document.getElementById('lname').value;
+                fullname= fname + " "+lname;
+                document.getElementById('fullname').value=fullname; 
+        }
+        function xyz(){
+            document.getElementById('fname').style.backgroundColor="pink";
+        }
+        function mybgcolor(value){
+            document.getElementById('abc').style.backgroundColor=value;
+        }
+    </script>
+</head>
+<body id="abc" >
+   <marquee onmouseover="stop()" onmouseout="start()"> <h1>Hi Welcome to Web Application </h1></marquee>
+    <div style="text-align: center;">
+        First Name :<input type="text" id="fname" onblur="xyz()"><br>
+        Last name : <input type="text" id="lname"><br>
+        Fullname :<input type="text" id="fullname" onfocus="validate()"><br>
+        <input type="button" value="CLICK" onclick="validate()">
+        <br>
+        COLORS : 
+        <select onchange="mybgcolor(value)">
+            <option>COlor </option>
+            <option value="red">RED </option>
+            <option value="blue">BLUE</option>
+            <option value="green">Green</option>
+            <option value="pink">PINK</option>
+        </select>
+
+    </div>
+    
+</body>
+</html>

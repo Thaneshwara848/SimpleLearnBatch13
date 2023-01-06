@@ -1,0 +1,34 @@
+<div style="text-align: center;">
+    <h1> Hi Data Binding </h1>
+    HI Mr {{ name }} is a {{desig}}<br>
+
+
+    {{compnay}} was founded in 1911 as the Computing-Tabulating-Recording Company (CTR),
+    <br>
+    <!-- <input type="submit" value="CLICK" onclick="abc()"> -->
+    <input type="submit" value="CLICK" (click)="abc()">
+    <hr>
+
+    Name :<input type="text" #myname>
+    <input type="submit" value="Click" 
+    (click)="xyz(myname.value)">
+
+    <hr>
+
+    princile : <input type="text" #p><br>
+    Time : <input type="text" #t><br>
+    ROI :<input type="text" #r><br>
+
+    TOTLA :<input type="text" value= {{total}}><br>
+    EMI :<input type="text" value={{emi}}><br>
+    <input type="submit" value="CALCULATE"
+    (click)="caculate(p.value,t.value,r.value)">
+    <br>
+    Total : {{total}}<br>
+    EMI : {{emi}}
+
+    <br>
+
+    <input type="submit" [disabled]="choice"><br>
+    <img [src]="myimg">
+</div>

@@ -1,0 +1,32 @@
+<div style="text-align: center;">
+    <h1> Hi Directive Demo </h1>
+</div>
+<div *ngIf="choice">
+    <h1> Hello How are you ? </h1>
+</div>
+<!-- <ul  *ngFor="let i  of arr">
+    <li>{{i}}</li>
+</ul> -->
+<input type="text" #fruit>
+<input type="submit" 
+value="Add Fruit"
+(click)="addfruit(fruit.value)">
+
+<ul *ngFor="let fruit of fruits">
+    <li>{{fruit}}</li>
+    <!-- <li *ngIf="fruit=='Apple'">{{fruit}}</li> -->
+</ul>
+<hr>
+<!-- <input type="text" #op>
+<input type="submit" value="Option"
+(click)="option(op.value)"> -->
+
+<!-- <div [ngSwitch]="op">
+    <p *ngSwitchCase="1">Kannada</p>
+    <p *ngSwitchCase="2">English</p>
+    <p *ngSwitchCase="3">Telgu</p>
+    <p *ngSwitchCase="4">Marati</p>
+    <p *ngSwitchDefault>HIndi</p>
+</div> -->
+
+<app-attrubutedirective></app-attrubutedirective>

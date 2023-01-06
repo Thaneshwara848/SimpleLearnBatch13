@@ -1,0 +1,87 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function cal(value){
+            if(value=="ADD")
+            {
+                a = parseInt(document.f2.aval.value);
+                  b = parseInt(document.f2.bval.value);
+                 c = a + b ; 
+                 document.f2.result.value= c; 
+            }
+            else if(value=="SUB")
+            {
+                a = parseInt(document.f2.aval.value);
+                  b = parseInt(document.f2.bval.value);
+                 c = a - b ; 
+                 document.f2.result.value= c; 
+            }
+            else if(value=="MUL")
+            {
+                a = parseInt(document.f2.aval.value);
+                  b = parseInt(document.f2.bval.value);
+                 c = a * b ; 
+                 document.f2.result.value= c; 
+            }
+            else if(value=="DIV")
+            {
+                a = parseInt(document.f2.aval.value);
+                  b = parseInt(document.f2.bval.value);
+                 c = a / b ; 
+                 document.f2.result.value= c; 
+            }
+        }
+        
+
+    </script>
+</head>
+<body bgcolor="yellow">  
+    <div style="text-align: center;">
+        <h1> Hi CACULATOR Demo </h1>
+        <form name="f2">
+          A VAlue : <input type="text" name="aval"><br>
+          B Value : <input type="text" name="bval"><br>
+          Result: <input type="text" name="result"><br>
+            <input type="button" onclick="cal(value)" value="ADD">
+            <input type="button" onclick="cal(value)" value="SUB">
+            <input type="button" onclick="cal(value)" value="MUL">
+            <input type="button" onclick="cal(value)" value="DIV">
+        </form>
+    </div>
+
+</body>
+
+</html>
+
+
+
+6 sub : 
+        kannda 
+        English 
+        Hindi 
+        Mathamatics 
+        Scinece 
+        So scine :
+                            5 minuts : at 9 : 
+        Total
+        Percentage :total / 6
+        Rank : rank
+            Caculate  
+        if(Percentage > 90 ){
+        }  
+        else if(Percentage < 90 && Percentage > 75)
+            distinction 
+        75 - 60 : 
+            first class 
+        50 - 60 : 
+            second class 
+        50 - 35 : 
+            just pass 
+        35 : 
+            fail 
+

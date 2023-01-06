@@ -137,6 +137,7 @@ Node JS : https://nodejs.org/en/download/
 Postman : https://www.postman.com/downloads/
 
 
+
 HTML 
 ======================
 html 
@@ -147,20 +148,20 @@ h1-h6
 p 
 br 
 hr 
-table : 
-list 
+table : tr , th , td , Cellpadding , cellspacing , rowspan , colspan 
+list : or , ul 
 audio . vedio 
 images 
 links
-some text 
-Form  : 
+some text : sup , sub , i , del , b , 
+Form  :  text, password, date , email, submit, reset, color, file , radio, checkbox 
 	
 
 
 CSS : 
-	typesof styles 
-	types of selectors 
-	borders 
+	typesof styles : inline , embabded / internal ,Extrena
+	types of selectors  : id , class, tage , * ,  h1,p 
+	borders  : 
 	background 
 	margin 
 	padding 
@@ -195,7 +196,236 @@ BootStracp:
 		Create Simple , with good look and feel 
 				web page you have to create 
 
-					holidays: 
+UI design  : HTML , css, Bootstracp 
+UI Development  : Javascript , Typescrit ,Angualr 
+				
+
+JavaScript : 
+
+	if , if else , swithc , 
+	loop : for , while , do while 
+	jump : break, continue , return 
+
+	Operatiors : 
+		Uniry : 
+				a=10 ; 
+				a++, ++a 
+				a-- , --a ;
+
+		Binary
+				a=10;b=20;
+				Arithematimcis operantor
+				 Comparision operantor a<=b , a<= b, a> =b , a== b :
+				 Logical: && , || , ! 
+
+				Asignamnt : a=10 ; 
+
+		Tarnary 
+				a<=b ? a : b 
+
+		DataType: 
+			Number: 
+			String  : 
+					upppercase , 
+					lowercase 
+					titlecase
+					slice 
+					trim 
+					rename 
+					CharAt
+			Date : 
+
+			FUnction : 
+					function abc(){}
+			DOM : 
+				    DOM: Document Object Model 
+
+					getElementById
+					getElementByName
+					getElementByClassName
+					getElementByTagName
+
+
+			validation : 
+			Events : 
+				onclick 
+				ondblclick 
+				onmouseover 
+				onmouseOut 
+				OnFocus 
+				OnBlur
+				OnDrag 
+				onchange 
+				onSubmit 
+		java 					JavaScript ? 
+
+		prog 					Prog : Scripting 
+		Compiled				No Compiler :  	
+			Run 					Run 
+		Server coding 			Client  side + Server = 
+				
+
+		Strick syntax 			no much : 
+									""
+									''
+									; 
+									;
+		UI : HTML , CSS , BootStracp
+		UI Development: 
+
+		node JS : 
+
+
+Type Script : 
+
+		Logical 
+
+		Oops 
+				inheritance 
+				poly 
+				encupulation 
+				abstraction 
+
+		Data type : 
+				number 
+				string 
+				any 
+			
+		paramanert: 
+			default  = "GET"
+			oprtionsl : ? 
+
+		Access Modifiers : 
+			Public 
+			private 
+			protected 
+		
+		Scope : 
+			let 
+			var 
+			const 
+
+
+
+
+Angualr : 
+			Install the package in cmd 
+
+			npm install -g @angular/cli 
+		
+			Check 
+			node --version 
+					> 15 
+			check 
+			ng version 
+					> 10 
+
+			How to Create a project : ng new Demo 
+						routing  ? y 
+						css enter 
+
+			navigate to project : cd Demo 
+
+			To Open vs code : Code . 
+			to Run the angualr : ng serve 
+
+
+			Run the below url in Browser 
+			http://localhost:4200/ 
+
+			 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Angualr : 
+		Live Reloading 
+		Fast development 
+
+
+		1 )  Component 
+			html 
+			css
+			ts 
+			spec.ts 
+
+						ng g c comp_name 
+						child 
+						parent 
+
+
+		2 ) Routing 
+				3 ) 
+						1  ) routerLink=""
+						2  ) <router-outlet>
+						3  ) router file : add and configure your router path
+
+		3 ) Data Binding :
+				
+				2 type :
+						1 way data binding 
+							event binding  ()
+							property binding []
+							interpolation    {}
+
+						2 way data binding 
+							event+ property   [()]
+		4 ) Directive :
+					
+					Strutural Directive 
+						*ngIf
+						*ngFor
+						*ngSwitch
+
+					Attrubute Directive 
+						NgClass
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
 
 
 

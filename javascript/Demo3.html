@@ -1,0 +1,53 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function add(){
+           a = parseInt(document.f2.aval.value);
+           b = parseInt(document.f2.bval.value);
+           c = a + b ; 
+           document.f2.result.value= c; 
+        }
+        function sub(){
+           a = parseInt(document.f2.aval.value);
+           b = parseInt(document.f2.bval.value);
+           c = a - b ; 
+           document.f2.result.value= c; 
+        }
+        function mul(){
+           a = parseInt(document.f2.aval.value);
+           b = parseInt(document.f2.bval.value);
+           c = a* b ; 
+           document.f2.result.value= c; 
+        }
+        function div(){
+           a = parseInt(document.f2.aval.value);
+           b = parseInt(document.f2.bval.value);
+           c = a / b ; 
+           document.f2.result.value= c; 
+        }
+
+    </script>
+</head>
+<body bgcolor="yellow">  
+    <div style="text-align: center;">
+        <h1> Hi CACULATOR Demo </h1>
+        <form name="f2">
+          A VAlue : <input type="text" name="aval"><br>
+          B Value : <input type="text" name="bval"><br>
+          Result: <input type="text" name="result"><br>
+            <input type="button" onclick="add()" value="ADD">
+            <input type="button" onclick="sub()" value="SUB">
+            <input type="button" onclick="mul()" value="MUL">
+            <input type="button" onclick="div()" value="DIV">
+        </form>
+    </div>
+
+</body>
+
+</html>
+
