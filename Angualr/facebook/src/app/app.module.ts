@@ -12,7 +12,8 @@ import { BindingComponent } from './binding/binding.component';
 import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
 import { AttrubutedirectiveComponent } from './attrubutedirective/attrubutedirective.component';
 import { FormsComponent } from './forms/forms.component';
-import { FormsModule }   from '@angular/forms';
+import { FormsModule ,ReactiveFormsModule }   from '@angular/forms';
+import { ReactiveformComponent } from './reactiveform/reactiveform.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,12 +25,14 @@ import { FormsModule }   from '@angular/forms';
     BindingComponent,
     DirectivedemoComponent,
     AttrubutedirectiveComponent,
-    FormsComponent
+    FormsComponent,
+    ReactiveformComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

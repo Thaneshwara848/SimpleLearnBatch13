@@ -395,6 +395,10 @@ Angualr :
 					Attrubute Directive 
 						NgClass
 
+		5) Forms : 
+					2 ways : 
+								1) Templet Driver Form : html css
+								2 Reactive Driven From : html ts 
 
 
 
