@@ -1,0 +1,97 @@
+
+
+<div style="text-align: center;">
+    <h1>HI Pipe Demo </h1>
+
+    <h3>
+    {{name}}<br>
+    {{name | uppercase}}<br>
+    {{name | lowercase}}<br>
+    {{name | titlecase}}<br>
+
+    <br>
+    {{amount}}<br>
+    {{amount | currency}}<br>
+    {{amount | currency :'INR'}}<br>
+    {{amount | currency :'USD'}}<br>
+    {{amount | currency :'JPY'}}<br>
+    {{amount | currency :'EUR'}}<br><br>
+
+    {{d}}<br>
+    {{d |date}}<br>
+    {{d |date :'MM-dd-YYYY'}}<br>
+    {{d |date :'dd-MM-YYYY'}}<br>
+    {{d |date :'dd-MM-YY'}}<br>
+    {{d |date :'dd-MM-YYYY HH-mm-ss' }}<br>
+
+<h3>Costum Pipe </h3>
+{{5 | sqr }}<br>
+{{10 | sqr }}<br>
+{{25 | sqr }}<br><br>
+
+{{5 |cubepipe }}<br>
+{{10 |cubepipe }}<br>
+
+
+       
+
+
+
+
+    </h3>
+</div>
+
+
+
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table class="table">
+    <tr >
+
+        <th>ID</th>
+        <th>Name </th>
+        <th>Age </th>
+        <th>Salary </th>
+        <th>Desig</th>
+    </tr>
+
+
+    <tr *ngFor="let emp of emps">
+        <td>{{emp.id}}</td>
+        <td>{{emp.name | uppercase}}</td>
+        <td>{{emp.age }}</td>
+        <td>{{emp.salary | currency:'INR'}}</td>
+        <td>{{emp.desig |lowercase}}</td>
+    </tr>
+</table>

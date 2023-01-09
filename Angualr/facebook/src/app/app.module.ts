@@ -14,6 +14,14 @@ import { AttrubutedirectiveComponent } from './attrubutedirective/attrubutedirec
 import { FormsComponent } from './forms/forms.component';
 import { FormsModule ,ReactiveFormsModule }   from '@angular/forms';
 import { ReactiveformComponent } from './reactiveform/reactiveform.component';
+import { PipedemoPipe } from './pipedemo.pipe';
+import { PipecompComponent } from './pipecomp/pipecomp.component';
+import { SqrPipe } from './sqr.pipe';
+import { CubepipePipe } from './cubepipe.pipe';
+import { ServdemoComponent } from './servdemo/servdemo.component';
+import { A1Component } from './a1/a1.component';
+import { A2Component } from './a2/a2.component';
+import { A3Component } from './a3/a3.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +34,15 @@ import { ReactiveformComponent } from './reactiveform/reactiveform.component';
     DirectivedemoComponent,
     AttrubutedirectiveComponent,
     FormsComponent,
-    ReactiveformComponent
+    ReactiveformComponent,
+    PipedemoPipe,
+    PipecompComponent,
+    SqrPipe,
+    CubepipePipe,
+    ServdemoComponent,
+    A1Component,
+    A2Component,
+    A3Component
   ],
   imports: [
     BrowserModule,

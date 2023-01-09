@@ -400,6 +400,12 @@ Angualr :
 								1) Templet Driver Form : html css
 								2 Reactive Driven From : html ts 
 
+		6 ) PIPE Demo
+					it is uded for transfotation of data to to requried formant
+
+		7 ) services 
+
+					if i want to share the info to all como or multiple comp 
 
 
 
