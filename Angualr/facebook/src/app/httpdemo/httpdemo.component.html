@@ -1,0 +1,17 @@
+<p>httpdemo works!</p>
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+      
+        <th>Price </th>
+        <th>Description</th>
+    </tr>
+        <tr *ngFor="let prod of products">
+            <td >{{prod.id}}</td>
+            <td >{{prod.name}}</td>
+            <td >{{prod.price}}</td>
+            <td >{{prod.desc}}</td>
+        </tr>
+    
+</table>

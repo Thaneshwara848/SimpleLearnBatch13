@@ -22,6 +22,8 @@ import { ServdemoComponent } from './servdemo/servdemo.component';
 import { A1Component } from './a1/a1.component';
 import { A2Component } from './a2/a2.component';
 import { A3Component } from './a3/a3.component';
+import { HttpdemoComponent } from './httpdemo/httpdemo.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,13 +44,15 @@ import { A3Component } from './a3/a3.component';
     ServdemoComponent,
     A1Component,
     A2Component,
-    A3Component
+    A3Component,
+    HttpdemoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -409,8 +409,19 @@ Angualr :
 
 
 
+		8) Life cycle hooks 
+				onInit 
+				OnDestroy 
+
+		9 ) http methods : 			
+				post 
+				put 
+				delete 
+				get 
 
 
+						i'll explaing front and back end 
+						POST man API testing ...!
 
 
 
@@ -436,6 +447,79 @@ Angualr :
 
 
 
+
+
+
+http://localhost:9999/getProd
+http://localhost:9999/getProd/100
+http://localhost:9999/addProd
+
+
+Run FSD project in sts :
+
+download postman and use all the http methods poccordingly
+
+and test all the apis wether is is working fine or not 
+
+
+
+
+
+STS + post tool+ h2-console data base 
+
+
+
+		1o minuts quickly check 
+
+
+
+
+
+
+
+Back end to front end : 
+
+
+
+
+
+Angualr : 
+
+
+
+
+COmpoannt : 
+
+	html 
+	getMyData : ts 
+
+Service 
+
+	void getMyData()
+	{
+		localhost:9999/getData
+	}
+
+
+Spring boot appiication 
+
+
+
+	localhost:9999/getData
+	localhost:9999/getData/id
+	localhost:9999/addData
+	localhost:9999/deleteData/id
+	
+	
+
+
+
+
+
+
+h2-cosole 
+/mysql
+//oracle
 
 
 

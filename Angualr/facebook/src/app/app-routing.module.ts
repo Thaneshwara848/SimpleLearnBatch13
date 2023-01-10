@@ -7,12 +7,17 @@ import { EntryComponent } from './entry/entry.component';
 import { FormsComponent } from './forms/forms.component';
 import { GalaryComponent } from './galary/galary.component';
 import { HomeComponent } from './home/home.component';
+import { HttpdemoComponent } from './httpdemo/httpdemo.component';
 import { LoginComponent } from './login/login.component';
 import { PipecompComponent } from './pipecomp/pipecomp.component';
 import { ServdemoComponent } from './servdemo/servdemo.component';
 import { SignupComponent } from './signup/signup.component';
 
 const routes: Routes = [
+  {
+    path:'httpdemo',
+    component:HttpdemoComponent
+  },
   {
     path:'serv',
     component:ServdemoComponent
@@ -51,7 +56,7 @@ const routes: Routes = [
   },
   {
     path:'',
-    component:EntryComponent
+    component:LoginComponent
   },
   {
     path:'**',
